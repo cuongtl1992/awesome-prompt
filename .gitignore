@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+/dist
+/build
+/tmp
+/out
+
+# Log files
+*.log
+logs/
+
+# IDE settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
