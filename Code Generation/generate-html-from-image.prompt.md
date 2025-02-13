@@ -15,7 +15,7 @@ Create a file named **{{file_name}}**. It shoud contain code to implement the UI
 
 
 ## **Expected Output**
-- A file named **{{}file_name}** containing the HTML code to implement the UI in the image.
+- A file named **{{file_name}}** containing the HTML code to implement the UI in the image.
 
 ## **Tags**  
 #HTML #Design #Web #CodeGeneration #Cursor
