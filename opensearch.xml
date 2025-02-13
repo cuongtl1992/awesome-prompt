@@ -4,8 +4,8 @@
   <ShortName>Awesome prompts library</ShortName>
   <Description>Search Awesome prompts library</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://prompt.lecuong.me/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://prompt.lecuong.me/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://prompt.lecuong.me/opensearch.xml" />
-  <moz:SearchForm>https://prompt.lecuong.me/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://prompt.lecuong.me/awesome-prompt/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://prompt.lecuong.me/awesome-prompt/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://prompt.lecuong.me/awesome-prompt/opensearch.xml" />
+  <moz:SearchForm>https://prompt.lecuong.me/awesome-prompt/</moz:SearchForm>
 </OpenSearchDescription>
