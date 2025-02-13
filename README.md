@@ -1,4 +1,4 @@
-# Prompt Libs
+# Awesome Prompt Libs
 
 The place to store and share your prompts.
 
@@ -21,4 +21,4 @@ The place to store and share your prompts.
 3. Use the prompt text to generate the output.
 
 ## Contributores
-- [CuongTL](mailto:cuong.tl@kiotviet.com)
+- [CuongTL](mailto:cuongtl92@gmail.com)
