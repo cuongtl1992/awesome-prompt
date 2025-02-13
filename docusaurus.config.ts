@@ -47,9 +47,9 @@ const config: Config = {
   ],
   themeConfig: {
     algolia: {
-      appId: "YOUR_ALGOLIA_APP_ID",
-      apiKey: "YOUR_ALGOLIA_API_KEY",
-      indexName: "prompt-library",
+      appId: "RVZU0YE3W4",
+      apiKey: "45752c7b7c3087cf476e3b6d9975d2d2",
+      indexName: "prompt_lecuong_me_rvzu0ye3w4_pages",
     },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
