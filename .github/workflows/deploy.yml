@@ -19,14 +19,18 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version-file: '.nvmrc'
+          node-version: '18'
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm install
+          npm ci
 
       - name: Build website
-        run: npm run build
+        run: |
+          npm run clear
+          npm run build
 
       - name: Create CNAME file
         run: echo "prompt.lecuong.me" > build/CNAME

@@ -47,6 +47,8 @@ const sidebars = {
       "items": [
         "prompts/Documentation/explain-codebase.prompt",
         "prompts/Documentation/generate-api-docs.prompt",
+        "prompts/Documentation/spec-compilation-prompt",
+        "prompts/Documentation/spec-development-prompt",
         "prompts/Documentation/summarize-code.prompt"
       ]
     },
@@ -56,6 +58,15 @@ const sidebars = {
       "items": [
         "prompts/Github Copilot/database-connection-config.prompt",
         "prompts/Github Copilot/date-validation-helper.prompt"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Planning",
+      "items": [
+        "prompts/Planning/detailed-implementation-blueprint",
+        "prompts/Planning/tdd-iterative-blueprint-prompt",
+        "prompts/Planning/todo-checklist-prompt"
       ]
     },
     {
