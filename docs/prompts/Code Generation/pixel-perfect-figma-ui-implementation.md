@@ -58,6 +58,11 @@ Key requirements:
    - For complex components, provide progress updates with comparison screenshots
    - Address any visual discrepancies immediately before proceeding
 
+9. **ASSET HANDLING**:
+   - For complex graphical elements like logos, prefer using a single SVG file rather than breaking it into separate components
+   - Download and use complete SVG exports directly from Figma when available
+   - Only decompose graphics into separate files when animation or interactive behavior requires it
+
 Please reference the Figma design at all times during implementation and verify each component against the design before completion. Do not include any device frame elements in the implementation.
 
 Figma design URL: `{{DESIGN_URL}}`
