@@ -1,7 +1,7 @@
 # Pixel-Perfect Figma UI Implementation
 
 ## **Use Case**
-Use this prompt to **generate pixel-perfect UI code** from Figma designs.  
+Use this ``{{component}}`` prompt to **generate pixel-perfect UI code** from Figma designs.  
 Helpful for **implementing precise Figma designs** with exact visual matching and proper component architecture.
 
 ## **Prompt**
@@ -24,7 +24,6 @@ Key requirements:
 
 3. **ASSETS AND RESOURCES**:
    - CRITICAL: Download and implement all SVG assets directly from Figma using the export function
-   - Verify SVG rendering in {{FRAMEWORK}} matches Figma exactly, especially for logos
    - If SVG implementation has issues, provide PNG alternatives at 1x, 2x, and 3x resolutions
    - Implement proper asset sizing with exact dimensions from the design
    - For logos, ensure proper spacing and alignment between logo mark and text components
@@ -68,7 +67,7 @@ Key requirements:
    - Download and use complete SVG exports directly from Figma when available
    - Only decompose graphics into separate files when animation or interactive behavior requires it
 
-Please reference the Figma design at all times during implementation and verify each component against the design before completion. Do not include any device frame elements in the implementation.
+Please reference the Figma design at all times during implementation and verify each component against the design before completion. Do not include any device frame elements in the implementation. **Ensure that the implementation is production-ready and follows best practices for the target framework. Do not hallucinate or make assumptions about the design; always refer to the Figma design for accurate implementation. If can't connect figma design, please retry ultil you can connect.**
 
 Figma design URL: `{{DESIGN_URL}}`
 Target framework: `{{FRAMEWORK}}`
