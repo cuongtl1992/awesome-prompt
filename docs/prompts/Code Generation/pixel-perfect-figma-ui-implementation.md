@@ -5,7 +5,7 @@ Use this prompt to **generate pixel-perfect UI code** from Figma designs.
 Helpful for **implementing precise Figma designs** with exact visual matching and proper component architecture.
 
 ## **Prompt**
-Implement this UI design from Figma with pixel-perfect accuracy, focusing exclusively on the app content and ignoring any device frame elements (status bar, home indicator, etc.).
+Implement this UI design from Figma with pixel-perfect accuracy, production ready code, better performance, focusing exclusively on the app content and ignoring any device frame elements (status bar, home indicator, etc.).
 
 Key requirements:
 
@@ -29,6 +29,11 @@ Key requirements:
    - Implement proper asset sizing with exact dimensions from the design
    - For logos, ensure proper spacing and alignment between logo mark and text components
    - Test all assets on different screen densities to ensure proper scaling
+   - SVG Complex Components: For components containing multiple combined SVG files, DO NOT load individual SVG files separately. Instead, process the entire SVG component as a complete unit.
+   - Export the entire complex SVG component as a single SVG file from Figma before implementation.
+   - Use inline SVG or SVG sprites to ensure accurate display as in the design.
+   - When encountering complex SVG components, request a preview of the entire component as a unit to ensure design integrity.
+   - Perform comparison checks between the rendered result and original design, paying special attention to alignment and relative sizes between SVG elements.
 
 4. **TEXT AND TYPOGRAPHY**:
    - Use exact text content as shown in the design
